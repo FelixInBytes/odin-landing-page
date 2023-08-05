@@ -6,22 +6,29 @@ body{
 .header{
     display: flex;
     color: white;
+    flex-direction: row;
 }
 
 .logo{
-    font-size: 18px;
-
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    flex: 50;
+    justify-content: center;
 }
 
 .links{
     font-size: 18px;
- 
+    display: flex;
+    flex-direction: row;
+    flex: 50;
 }
 
 
 ul{
     list-style-type: none;
-    
+    display: flex;
+    gap: 30px;
 }
 
 a{
