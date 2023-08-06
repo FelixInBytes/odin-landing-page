@@ -14,7 +14,9 @@ body{
     display: flex;
     flex-direction: row;
     flex: 50;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    padding-top: 10px;
 }
 
 .links{
@@ -22,6 +24,7 @@ body{
     display: flex;
     flex-direction: row;
     flex: 50;
+    padding-right: 100px;
 }
 
 
@@ -35,6 +38,71 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.info-section{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+
+.left-side{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 50;
+    padding-left: 100px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.right-side{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex: 50;
+    padding-right: 100px;
+}
+
+.heading-info{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.info-text{
+    font-size: 18px;
+
+}
+
+.button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+button{
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    text-align: center;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.img-box-1{
+    display: flex;
+    background-color: gray;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .info{
     display: flex;
@@ -67,6 +135,7 @@ a{
     border: 5px solid blue;
     border-radius: 25px;
     display: flex;
+    
 }
 
 .box-and-text{
@@ -78,12 +147,4 @@ a{
 .box-and-text,p{
     font-size: 14px;
     width: 200px;
-}
-
-.content-container{
-    display: flex;
-}
-
-.text-content{
-    
 }
