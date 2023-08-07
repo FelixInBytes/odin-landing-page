@@ -220,3 +220,11 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.footer{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    color:#f9faf8;
+}
