@@ -189,3 +189,33 @@ p {
   justify-content: center;
   border-radius: 20px;
 }
+
+.action-left{
+    display: flex;
+    flex: 60;
+    flex-direction: column;
+}
+
+.action-right{
+    display: flex;
+    flex: 40;
+}
+
+.action-header{
+
+}
+
+.signup{
+
+}
+
+.action-button{
+    background-color: #3882f6;
+    font-size: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
